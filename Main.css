@@ -54,9 +54,10 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-#timer p {
+#time {
     color: white;
     font-size: 500%;
     margin: 0;
@@ -68,4 +69,9 @@ html, body {
 #scramble {
     word-wrap: break-word;
     text-wrap: wrap;
+}
+
+#ind {
+    border: none;
+    text-align: center;
 }
