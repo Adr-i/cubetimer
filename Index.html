@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cube Timer</title>
+        <link rel="stylesheet" href="./Main.css">
+    </head>
+    <body>
+        <div class="sidebar">
+            <p id="scramble">Click "New Scramble" to get a new scramble</p>
+            <input id="nummov" type="number" placeholder="Number of moves: ">
+            <button id="scramblebtn">New Scramble</button>
+            <select id="cubelist" name="cubelist" size="1"></select>
+            <input id="cubeinput" type="text" placeholder="Add cube (Press Enter)">
+            <button id="removeselectedcube">Remove selected cube</button>
+            <div class="times">
+            </div>
+            <p id="a3">Average of 3: ?</p>
+            <p id="a5">Average of 5: ?</p>
+            <p id="a7">Average of 7: ?</p>
+            <p id="a10">Average of 10: ?</p>
+        </div>
+        <div id="timer">
+            <p id="time">0 Seconds</p>
+        </div>
+        <script src="./Main.js"></script>
+    </body>
+</html>
